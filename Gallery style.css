@@ -1,0 +1,189 @@
+html{
+    background-color: rgb(87, 87, 87);
+    width: 100%;
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+a{
+    color: white;
+}
+#menu{
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    color: white;
+    font-size: 1.5em;
+    
+}
+li{
+    display: inline-block;
+    margin-left: 40px;
+    
+
+}
+#main{
+    color: white;
+    position: fixed;
+    top: 5%;
+    right: 48vw;
+}
+.fas,.fa-bars{
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 2em;
+    display: none !important;
+
+
+}
+.speed{
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    font-size: 2em;
+    color: red;
+
+}
+.stance{
+    position: fixed;
+    top: 15%;
+    right: 20%;
+    font-size: 2em;
+    color: gold;
+
+}
+h1{
+    position: fixed;
+    text-align: center;
+    font-size: 3.5em;
+    color:whitesmoke;
+    left: 45%;
+}
+#wagon{position: fixed;
+    right: 5%;
+    top: 25%;
+    width: 35vw;
+    height: 35vh;
+    background: url(./images/shaggy\ .jpg);
+    background-size: cover;
+
+}
+#evo{
+    position: fixed;
+    left: 5%;
+    top: 25%;
+    width: 35vw;
+    height: 35vh;
+    background: url(./images/evo9.4.png);
+    background-size: cover;
+
+}
+#s15{
+    position: fixed;
+    right: 5%;
+    top: 60%;
+    width: 35vw;
+    height: 35vh;
+    background: url(./images/s15.jpg);
+    background-size: cover;
+}
+#truck{
+    position: fixed;
+    left: 5%;
+    top: 60%;
+    width: 35vw;
+    height: 35vh;
+    background: url(./images/JoshPickup2.jpg);
+    background-size: cover;
+}
+
+/* ipad size */
+@media (max-width:1024px){
+#menu{
+    display: none !important; 
+}
+.fa-bars{
+    display: block !important;
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    }
+ul{
+    display:none;
+}
+#wagon{
+    width: 50vw;
+    height: 25vh;
+    background-size: cover;
+    right: 2%;
+}
+#evo{
+    width: 45vw;
+    height: 25vh;
+    background-size: cover;
+    left: 2%;
+    
+}
+#s15{
+    width: 45vw;
+    height: 25vh;
+    background-size: cover;
+    right: 2%;
+
+}
+#truck{
+    width: 50vw;
+    height: 25vh;
+    background-size: cover;
+    left: 2%;
+}
+h1{
+    position: fixed;
+    font-size: 3em;
+    left: 420px!important;
+}
+ /* iphone size */
+            
+ @media (max-width:414px)
+{
+#evo{
+    width: 96vw;
+    height: 25vh;
+    background-size: cover;
+    left: 2%;
+    
+}
+#s15{
+    width: 96vw;
+    height: 25vh;
+    background-size: cover;
+    right: 2%;
+
+}
+#wagon{
+    display: none;
+}
+#truck{
+    display: none;
+}
+.speed{
+    position: fixed;
+    right: 200px;
+}
+.stance{
+    position: fixed;
+    top: 450px;
+}
+.main{
+    font-size: 2.5em;
+}
+h1{
+    display: cover;
+    top: 0;
+    left: 0%;
+}
+}
+
+}

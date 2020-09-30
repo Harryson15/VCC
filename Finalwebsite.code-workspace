@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../vcc site/VCC"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Figma To HTML"
+	}
+}

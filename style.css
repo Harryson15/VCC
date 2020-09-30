@@ -1,0 +1,190 @@
+
+/* Desktop size        */
+        html{
+            background-color: rgb(87, 87, 87);
+            width: 100%;
+            height: 100vh;
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+        a{
+            color: white;
+        }
+        #Wagon{
+            /* Location */
+            position: fixed;
+            top: 0;
+            left: 0;
+            /* dimension for the image*/
+            width: 900px;
+            height: 540px;
+            /* Background image */
+            background: url(./images/shaggy\ .jpg)no-repeat;
+            background-size: cover;
+            }
+
+            #truck{
+                position: fixed;
+               
+                left: 0;
+                bottom: 0;
+
+                width: 900px;
+                height: 540px;
+
+                background: url(./images/JoshPickup2.jpg) no-repeat;
+                background-size: cover;
+            }
+            #menu{
+                position: fixed;
+                top: 10px;
+                right: 50px;
+                color: white;
+                font-size: 1.5em;
+                
+            }
+            li{
+                display: inline-block;
+                margin-left: 40px;
+                
+
+            }
+            #main{
+                color: white;
+                position: fixed;
+                top: 30%;
+                right: 15vw;
+            }
+            #main h1{
+                font-size: 3em;
+
+            }
+            .middle{
+                font-size: 2em;
+            }
+            .button{
+                position: absolute;
+                top: 200px;
+                width: 150px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                font-size: 1em;
+                background-color: black;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            .bottom{
+                position: absolute;
+                top: 270px;
+            }
+            .footer{
+                position: fixed;
+                bottom: 0;
+                color: rgb(4, 180, 19);
+                right: 10px;
+                padding: 20px;
+                font-size: 1.5em;
+                }
+                .fas,.fa-bars{
+                    color: white;
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    font-size: 2em;
+                    display: none !important;
+                
+
+                }
+                /* ipad size */
+            @media (max-width:1024px){
+                #menu{
+                    display: none !important; 
+                }
+                .fa-bars{
+                    display: block !important;
+                    color: white;
+                    position: fixed;
+                    top: 20px;
+                    right: 30px;
+                    }
+                ul{
+                    display:none;
+                }
+            
+            #Wagon{
+              display: none;
+            
+                
+            } 
+            #truck{
+                position: fixed;
+               
+                left: 0;
+                bottom: 0;
+
+                width: 100vw;
+                height: 600px;
+
+             
+                background-size: cover;}
+   
+            .footer{
+                top: 0;
+                left: 0;
+            }
+            #main{
+               left: 30px;
+               top: 150px; 
+               font-size: 1.3em;
+                }
+            .button{
+                top: 400px;
+                
+            }
+            .bottom{
+                top: 470px;
+            }
+            } 
+             /* iphone size */
+            
+            @media (max-width:414px) {
+                #truck{
+                    position: cover;
+                   
+                    left: -100px;
+                    bottom: 0;
+    
+                    width: 550px;
+                    height: 350px; 
+                }
+                .footer{
+                    top: 0;
+                    left: 0;
+                }
+                h1{
+                    font-size: 2.5em !important;
+                }
+                #main{
+                   left: 30px;
+                   top: 80px; 
+                   font-size: 1em;
+                    }
+                .button{
+                    top: 310px;
+                    left: 85px;
+                    
+                    
+                }
+                .bottom{
+                    top: 370px;
+                    text-align: center;
+                }     
+             .middle{
+                    font-size: 1.5em;
+                    
+                } 
+            
+
+
+
+            }
