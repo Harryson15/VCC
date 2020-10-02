@@ -39,14 +39,19 @@ li{
 }
 h1{
     position: fixed;
-    right: 850px;
+    right: 870px;
     font-size: 3.5em;
+    border:solid 5px rgb(77, 76, 76);
+    background-color: black;
+    padding: 5px ;
+    
 
 }
 .ThankYou{
     position: fixed;
     font-size: 2.5em;
-    left: 5%;
+    text-align: center;
+    left: 18%;
     top: 20vh;
     float: left;
     line-height: 2em;
@@ -56,20 +61,38 @@ h1{
 .Info{
     text-align: center;
     position: fixed;
-    top: 70vh;
-    left: 45%;
+    top: 80vh;
+    left: 44%;
     line-height: 2em;
+    border:solid 5px rgb(77, 76, 76);
+    background-color: black;
+    padding: 5px ;
+    
 }
 #miata{
     position: fixed;
-    right: 0%;
-    top: 30%;
-    width: 35vw;
+    right: -1%;
+    top: 20%;
+    width: 36vw;
     height: 80vh;
     background: url(./images/miata.jpg);
     background-size: cover;
+    border-radius: 8px;
 }
-
+.team{
+    left: 180px;
+    position: fixed;
+    top: 20%;
+    font-size: 2em;
+    }
+.teamtable{
+    font-size: 1.3em;
+    top: 27%;
+    position: fixed;
+    left: 2%;
+    height: 40vh;
+    color: white;
+}
 
 /* ipad size */
 @media (max-width:1024px){
@@ -106,19 +129,26 @@ h1{
     .Info{
         text-align: center;
         position: fixed;
-        top: 88vh;
+        top: 86vh;
         left: 40%;
         line-height: 2em;
+        font-size: 1.2em;
     }
     #miata{
         position: fixed;
         float: left;
-        left: 10%;
+        left: 11%;
         top: 27%;
         width: 80vw;
         height: 60vh;
         background-size: cover;
-        
+        border-radius: 8px;
+    }
+    .team{
+        display: none;
+    }
+    .teamtable{
+        display: none;
     }
 }
 /* iphone size */
@@ -145,8 +175,8 @@ h1{
     .Info{
         text-align: center;
         position: fixed;
-        top: 87vh;
-        left: 28%;
+        top: 85vh;
+        left: 23%;
         line-height: 1.5em;
     }
     #miata{
@@ -154,9 +184,15 @@ h1{
         left: -4%;
         top: 25%;
         width: 110vw;
-        height: 60vh;
+        height: 55vh;
         background-size: cover;
-        
+        border-radius: 8px;
+    }
+    .team{
+        display: none;
+    }
+    .teamtable{
+        display: none;
     }
 
 }

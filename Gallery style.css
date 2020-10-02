@@ -59,6 +59,11 @@ h1{
     font-size: 3.5em;
     color:whitesmoke;
     left: 45%;
+    border:solid 5px rgb(77, 76, 76);
+    background-color: black;
+    padding: 5px ;
+    
+    
 }
 #wagon{position: fixed;
     right: 5%;
@@ -67,7 +72,7 @@ h1{
     height: 35vh;
     background: url(./images/shaggy\ .jpg);
     background-size: cover;
-
+    border-radius: 8px;
 }
 #evo{
     position: fixed;
@@ -77,6 +82,7 @@ h1{
     height: 35vh;
     background: url(./images/evo9.4.png);
     background-size: cover;
+    border-radius: 8px;
 
 }
 #s15{
@@ -87,6 +93,7 @@ h1{
     height: 35vh;
     background: url(./images/s15.jpg);
     background-size: cover;
+    border-radius: 8px;
 }
 #truck{
     position: fixed;
@@ -96,6 +103,7 @@ h1{
     height: 35vh;
     background: url(./images/JoshPickup2.jpg);
     background-size: cover;
+    border-radius: 8px;
 }
 
 /* ipad size */
@@ -118,41 +126,44 @@ ul{
     height: 25vh;
     background-size: cover;
     right: 2%;
+    border-radius: 8px;
 }
 #evo{
     width: 45vw;
     height: 25vh;
     background-size: cover;
     left: 2%;
-    
+    border-radius: 8px;
 }
 #s15{
     width: 45vw;
     height: 25vh;
     background-size: cover;
     right: 2%;
-
+    border-radius: 8px;
 }
 #truck{
     width: 50vw;
     height: 25vh;
     background-size: cover;
     left: 2%;
+    border-radius: 8px;
 }
 h1{
     position: fixed;
     font-size: 3em;
     left: 420px!important;
 }
+
  /* iphone size */
-            
- @media (max-width:414px)
-{
+}      
+ @media (max-width:414px){
 #evo{
     width: 96vw;
     height: 25vh;
     background-size: cover;
     left: 2%;
+    border-radius: 8px;
     
 }
 #s15{
@@ -160,6 +171,7 @@ h1{
     height: 25vh;
     background-size: cover;
     right: 2%;
+    border-radius: 8px;
 
 }
 #wagon{
@@ -180,10 +192,10 @@ h1{
     font-size: 2.5em;
 }
 h1{
-    display: cover;
+    position:fixed;
     top: 0;
-    left: 0%;
+    left: 0;
+    color:white;
+    z-index:3000 !important;
 }
-}
-
 }

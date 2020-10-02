@@ -20,6 +20,8 @@
             /* Background image */
             background: url(./images/shaggy\ .jpg)no-repeat;
             background-size: cover;
+            border-radius: 8px;
+            
             }
 
             #truck{
@@ -33,6 +35,7 @@
 
                 background: url(./images/JoshPickup2.jpg) no-repeat;
                 background-size: cover;
+                border-radius: 8px;
             }
             #menu{
                 position: fixed;
@@ -40,6 +43,9 @@
                 right: 50px;
                 color: white;
                 font-size: 1.5em;
+                
+
+
                 
             }
             li{
@@ -51,11 +57,14 @@
             #main{
                 color: white;
                 position: fixed;
-                top: 30%;
+                top: 20%;
                 right: 15vw;
+                border:solid 5px rgb(77, 76, 76);
+    background-color: black;
+    padding: 5px ;
             }
-            #main h1{
-                font-size: 3em;
+            h1{
+                font-size: 3.2em;
 
             }
             .middle{
@@ -63,19 +72,23 @@
             }
             .button{
                 position: absolute;
-                top: 200px;
-                width: 150px;
-                height: 30px;
+                top: 380px;
+                width: 250px;
+                height: 44px;
                 text-align: center;
-                line-height: 30px;
-                font-size: 1em;
+                line-height: 40px;
+                font-size: 1.5em;
                 background-color: black;
                 padding: 10px;
                 border-radius: 10px;
+                left: 320px;
             }
             .bottom{
                 position: absolute;
-                top: 270px;
+                top: 470px;
+                font-size: 1.5em;
+                left: 200px;
+                text-align: center;
             }
             .footer{
                 position: fixed;
@@ -83,7 +96,7 @@
                 color: rgb(4, 180, 19);
                 right: 10px;
                 padding: 20px;
-                font-size: 1.5em;
+                font-size: 2em;
                 }
                 .fas,.fa-bars{
                     color: white;
@@ -95,6 +108,14 @@
                 
 
                 }
+                .box{
+                 
+                  border: 5px black ;
+                  z-index: 5000px;
+                color: black;
+                }
+          
+
                 /* ipad size */
             @media (max-width:1024px){
                 #menu{
@@ -124,7 +145,7 @@
 
                 width: 100vw;
                 height: 600px;
-
+                border-radius: 8px;
              
                 background-size: cover;}
    
@@ -139,10 +160,19 @@
                 }
             .button{
                 top: 400px;
-                
+                left: 350px;
+                width: 250px;
+                height: 44px;
+                text-align: center;
+                line-height: 35px;
+                font-size: 1.3em;
+                background-color: black;
+                padding: 10px;
+                border-radius: 10px;
             }
             .bottom{
                 top: 470px;
+                left: 150px;
             }
             } 
              /* iphone size */
@@ -153,13 +183,15 @@
                    
                     left: -100px;
                     bottom: 0;
-    
+                    border-radius: 8px;
                     width: 550px;
                     height: 350px; 
                 }
                 .footer{
+                    position: fixed;
                     top: 0;
                     left: 0;
+                    font-size: 1.5em;
                 }
                 h1{
                     font-size: 2.5em !important;
@@ -170,14 +202,24 @@
                    font-size: 1em;
                     }
                 .button{
-                    top: 310px;
+                    top: 280px;
                     left: 85px;
-                    
-                    
+                    position: absolute;
+                width: 250px;
+                height: 34px;
+                text-align: center;
+                line-height: 32px;
+                font-size: 1.2em;
+                background-color: black;
+                padding: 10px;
+                border-radius: 10px;
+                left: 40px;   
                 }
                 .bottom{
-                    top: 370px;
+                    top: 350px;
                     text-align: center;
+                    font-size: 1em;
+                    left: 35px;
                 }     
              .middle{
                     font-size: 1.5em;

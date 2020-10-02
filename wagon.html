@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1987 Volvo 240</title>
+
+<meta name="wagon" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body{
+    background-color:rgb(58, 58, 58);
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  max-height: 90%;
+  position: relative;
+  margin: auto;
+  
+}
+
+
+h2{
+    text-align:center;
+    font-size:3em;
+    color: white;
+    border:solid 5px rgb(77, 76, 76);
+    background-color: black;
+    padding: 5px ;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 19px}
+  
+}
+</style>
+</head>
+<body>
+
+<h2>1987 Volvo 240 Wagon</h2>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="images/volvo1.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="images/shaggy2.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="images/shaggy .jpg" style="width:100%">
+  
+</div>
+<div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/shaggy3.jpg" style="width:100%">
+    
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="images/driveby.jpg" style="width:100%">
+    
+  </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</html>
